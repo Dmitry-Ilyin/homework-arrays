@@ -11,6 +11,14 @@ public class Jellybean extends AbstractSweet {
         this.filling = filling;
     }
 
+    public String getFilling() {
+        return filling;
+    }
+
+    public void setFilling(String filling) {
+        this.filling = filling;
+    }
+
     @Override
     public String toString() {
         return super.toString() + ", filling='" + filling + "'";

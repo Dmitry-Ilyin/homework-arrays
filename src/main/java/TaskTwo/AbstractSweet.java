@@ -9,7 +9,7 @@ public abstract class AbstractSweet {
     }
 
     public AbstractSweet(String name, double weight, double price) {
-        if (name.isEmpty() || weight == 0 || price == 0) {
+        if (name.isEmpty() || weight <= 0 || price <= 0) {
             throw new IllegalArgumentException();
         }
         this.name = name;

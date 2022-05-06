@@ -12,6 +12,7 @@ public class Main {
         cocololo.setName("cocololo");
         cocololo.setWeight(1213.12);
         cocololo.setPrice(657.57);
+        cocololo.setTaste("coconut");
 
         AbstractSweet[] abstractSweets = new AbstractSweet[]{coco, candy, bee, mentos, cocololo};
 

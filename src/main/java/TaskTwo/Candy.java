@@ -11,6 +11,14 @@ public class Candy extends AbstractSweet {
         this.taste = taste;
     }
 
+    public String getTaste() {
+        return taste;
+    }
+
+    public void setTaste(String taste) {
+        this.taste = taste;
+    }
+
     @Override
     public String toString() {
         return super.toString() + ", taste='" + taste + "'";
